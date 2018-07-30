@@ -1,23 +1,21 @@
 import java.util.*;
-public class Demo
+public class nums
 {
-    public static void main(String[] args) 
+    public static void main(String[] args)
     {
-        int number;
-        Scanner sc = new Scanner(System.in);
-        number=sc.next();
-        if(number > 0)
+        int a;
+        Scanner sc= new Scanner(System.in);
+        a=sc.next();
+        if(a>0)
         {
-            System.out.println(number+" is a positive number");
-        }
-        else if(number < 0)
-        {
-            System.out.println(number+" is a negative number");
-        }
-        else
-        {
-            System.out.println(number+" is neither positive nor negative");
-        }
+            System.out.println(a +" is positive");
+                               }
+                               if(a<0){
+                                   System.out.println(a + " is negative");
+                               }
+                                   else{
+                                       System.out.println(a + " is zero");
+                                   }
     }
 }
-
+        
